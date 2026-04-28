@@ -14,8 +14,23 @@ function sendBg(msg) {
     });
 }
 
+const RESTRICTED_PREFIXES = [
+    "chrome://",
+    "chrome-extension://",
+    "https://chrome.google.com/webstore",
+    "edge://",
+    "about:",
+    "devtools://",
+];
+
+function isRestrictedUrl(url) {
+    return !url || RESTRICTED_PREFIXES.some(prefix => url.startsWith(prefix));
+}
+
 async function getActiveTab() {
     const [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
+    if (!tab) throw new Error("NO_ACTIVE_TAB");
+    if (isRestrictedUrl(tab.url)) throw new Error("RESTRICTED_PAGE");
     return tab;
 }
 
