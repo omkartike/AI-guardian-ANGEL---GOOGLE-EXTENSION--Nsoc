@@ -1,205 +1,290 @@
-# 🛡️ Guardian AI - Complete Feature Set ( “Nexus Spring of Code )
+# 🛡️ Guardian AI ANGEL
 
-**Version:** 2.0  
-**Status:** ✅ All Features Installed & Working  
-**API:** OpenRouter (GPT-4o Mini)  
-**API Key:** Permanently Integrated
+### Intelligent Privacy & Security Chrome Extension for AI + Web Browsing
 
-## 📋 Installed Features
+Guardian AI ANGEL is a **privacy-first Chrome Extension** that protects users from digital threats such as:
 
-### 1. 🔐 AI Privacy Policy Analyzer
-- ✅ **Auto-Detection:** Automatically detects privacy policy and terms pages
-- ✅ **AI Analysis:** Uses advanced AI to analyze full privacy text
-- ✅ **Risk Scoring:** Displays 0-100 risk score with visual bar
-- ✅ **Smart Summaries:** Generates 5-6 key bullet points explaining policies
-- ✅ **Risk Detection:** Highlights dangerous clauses:
-  - Data selling
-  - Third-party sharing
-  - Tracking mechanisms
-  - User data monetization
-- ✅ **Recommendations:** Shows Safe ✅ / Moderate ⚠️ / Risky ❌
-- ✅ **Auto-Accept:** One-click accept button for safe policies (<30 risk score)
+* Data leaks on AI platforms
+* Phishing and scam websites
+* Unsafe payment gateways
+* Tracking and cookie abuse
+* Malicious emails
 
-### 2. 💳 Payment Gateway Verification
-- ✅ **SSL Certificate Check:** Verifies secure connections
-- ✅ **Domain Reputation:** Checks domain age and reputation
-- ✅ **Phishing Detection:** Detects phishing patterns and fake gateways
-- ✅ **Security Analysis:** Identifies suspicious elements
-- ✅ **Trust Badges:** Shows Legit ✅ / Suspicious ⚠️ / High Risk ❌
-- ✅ **Human-Readable Explanations:** Clear, non-technical warnings
-
-### 3. 🍪 Auto Consent Manager
-- ✅ **Cookie Banner Detection:** Identifies consent dialogs
-- ✅ **Privacy-First:** Rejects tracking cookies by default
-- ✅ **Smart Rejection:** Automatically finds and clicks reject buttons
-- ✅ **User Preferences:** Respects user-defined privacy levels
-- ✅ **Minimal Essential:** Allows only essential cookies
-
-### 4. 📧 Email Scam Detector (Gmail Integration)
-- ✅ **Phishing Analysis:** Detects phishing emails
-- ✅ **Scam Pattern Recognition:** Identifies common scam tactics
-- ✅ **Suspicious Links:** Highlights malicious URLs
-- ✅ **Domain Spoofing:** Checks for fake sender domains
-- ✅ **Trust Score:** Shows trustworthiness rating
-- ✅ **Detailed Explanation:** Human-friendly analysis
-
-### 5. 🚫 Advanced Ad Blocker
-- ✅ **Ad Detection:** Identifies advertisem elements
-- ✅ **Tracker Blocking:** Removes tracking scripts
-- ✅ **Popup Prevention:** Blocks intrusive popups
-- ✅ **Malware Scripts:** Detects malicious JavaScript
-- ✅ **Performance:** Lightweight blocking without slowing pages
-- ✅ **Stats Tracking:** Shows number of ads/trackers blocked
-
-### 6. 📊 AI Risk Dashboard
-- ✅ **Overall Safety Score:** Shows combined browsing safety (0-100)
-- ✅ **Stats Tracking:**
-  - Ads blocked count
-  - Trackers blocked count
-  - Threats detected count
-  - Pages scanned count
-- ✅ **Weekly Reports:** Shows threat distribution across days
-- ✅ **Reset Option:** Clear all stats
-- ✅ **Real-Time Updates:** Stats update automatically
-
-## 🎮 How to Use
-
-### Privacy Policy Analysis
-1. Open a privacy policy or terms page
-2. Click "🔐 Privacy" tab in extension popup
-3. Click "🔍 Analyze This Page"
-4. View AI analysis with risk score
-5. Click "✅ Auto Accept (Safe Policy)" if safe
-
-### Payment Verification
-1. Go to checkout/payment page
-2. Click "💳 Payments" tab
-3. Click "🛡️ Verify Current Page"
-4. Review security report
-5. Proceed if verified as Legit ✅
-
-### Email Protection
-1. Open Gmail with Guardian AI active
-2. Click "📧 Email" tab
-3. Click "📬 Analyze Selected Email"
-4. View trust score and phishing analysis
-5. Follow safety recommendations
-
-### View Dashboard
-1. Click "📊 Dashboard" tab
-2. See overall safety score
-3. View statistics of blocked threats
-4. Click "🔄 Refresh Stats" to update
-5. Click "🔄 Reset All" to clear stats
-
-### Full Settings
-1. Click "⚙️ Settings" tab
-2. Click "Open Full Settings" for advanced options
-3. Customize privacy preferences
-4. Adjust blocking levels
-
-## 🔧 Technical Details
-
-**Architecture:**
-- Manifest V3 (Chrome Extension Standard)
-- Service Worker Background Script
-- Content Scripts on all pages
-- Popup Interface with Tab Navigation
-
-**AI Engine:**
-- API: OpenRouter.io
-- Model: GPT-4o Mini (fast, cheap, accurate)
-- API Key: Permanently integrated
-- Response Time: ~1-2 seconds per analysis
-
-**Storage:**
-- Chrome Storage Sync API (cross-device)
-- Local Storage for statistics
-- No data sent to external servers
-
-**Permissions:**
-- `storage`: Save settings and stats
-- `scripting`: Execute blocking scripts
-- `tabs`: Access current tab info
-- `webNavigation`: Track page navigation
-- `<all_urls>`: Scan any website
-
-## 📈 Features in Dashboard
-
-```
-📊 Dashboard
-├── Overall Safety Score (0-100)
-├── 🚫 Ads Blocked (counter)
-├── 👁️ Trackers Blocked (counter)
-├── ⚠️ Threats Found (counter)
-├── 📄 Pages Scanned (counter)
-├── 🔄 Refresh Stats (button)
-└── 🔄 Reset All (button)
-
-🔐 Privacy
-├── Analyze This Page (button)
-├── Risk Score Bar (0-100)
-├── 📋 Key Points (bullets)
-├── 🔗 Risky Clauses (if any)
-└── ✅ Auto Accept (if safe)
-
-💳 Payments
-├── Verify Current Page (button)
-├── Verdict (Legit/Suspicious/Risk)
-├── SSL Status
-├── Domain Age
-├── Security Flags
-└── Explanation
-
-📧 Email
-├── Analyze Selected Email (button)
-├── Trust Score
-├── Phishing Verdict
-├── Red Flags
-└── Detailed Analysis
-
-⚙️ Settings
-├── Extension Information
-├── Feature List
-└── Open Full Settings
-```
-
-## 🚀 Performance
-
-- **Extension Size:** ~200KB
-- **Memory Usage:** ~15MB baseline
-- **Page Load Impact:** Minimal (<100ms)
-- **Block Efficiency:** Prevents ~80% of tracking
-
-## ✨ Key Highlights
-
-✅ **No API Key Setup** - Key permanently integrated  
-✅ **All Features Active** - Every feature ready to use  
-✅ **Auto-Detection** - Privacy pages detected automatically  
-✅ **One-Click Actions** - Auto-accept, verify, analyze in one click  
-✅ **Real-Time Protection** - Blocks ads, trackers, and threats instantly  
-✅ **Beautiful UI** - Modern gradient design with smooth animations  
-✅ **Privacy-First** - All analysis happens locally or via encrypted API  
-✅ **No Ads** - Completely ad-free  
-✅ **No Tracking** - Doesn't track users, only protects from being tracked  
-
-## 🎯 Next Steps
-
-1. **Install Extension** → Load in Chrome
-2. **Reload Extension** → Toggle OFF → ON in chrome://extensions
-3. **Try Each Feature** → Click through each tab
-4. **Check Console** → Press F12 for debug logs
-5. **Analyze Pages** → Test on real websites
-
-## 📞 Support
-
-All features are working and integrated. If any errors occur:
-1. Check DevTools Console (F12)
-2. Look for [Guardian] logs
-3. Try reloading extension (toggle OFF/ON)
-4. Reload the webpage and try again
+It acts as a **real-time security layer inside the browser**, combining rule-based detection with AI-powered analysis (OpenRouter GPT-4o Mini).
 
 ---
 
-**Guardian AI v2.0 - Advanced Security & Privacy Shield** 🛡️  
-*Protecting your browsing. Keeping you safe.*
+## 📌 Problem Statement
+
+Modern web usage exposes users to:
+
+* Hidden data collection in AI tools
+* Fake payment pages and phishing attacks
+* Aggressive tracking and consent abuse
+* Scam emails and malicious links
+
+Most browsers either:
+
+* Don’t detect these issues in real time, or
+* Over-block without context
+
+---
+
+## 🎯 Solution
+
+Guardian AI ANGEL provides a **balanced security layer** that:
+
+* Detects threats in real time
+* Explains risks in human-readable format
+* Gives safety scores (0–100)
+* Suggests safe actions instead of blocking blindly
+
+---
+
+## ⚙️ Core Capabilities
+
+### 🔐 1. AI Privacy Policy Analyzer
+
+* Detects privacy/terms pages automatically
+* AI summarizes policies into key points
+* Risk scoring (0–100)
+* Detects:
+
+  * Data selling
+  * Tracking mechanisms
+  * Third-party sharing
+* One-click **Auto-Accept (safe pages only)**
+
+---
+
+### 💳 2. Payment Gateway Verification
+
+* SSL & domain safety checks
+* Phishing pattern detection
+* Trust scoring system:
+
+  * Legit ✅
+  * Suspicious ⚠️
+  * High Risk ❌
+* Clear explanation of security risks
+
+---
+
+### 🍪 3. Auto Consent Manager
+
+* Detects cookie banners
+* Rejects non-essential tracking cookies
+* Preserves essential site functionality
+* Privacy-first default behavior
+
+---
+
+### 📧 4. Email Scam Detection
+
+* Detects phishing emails in Gmail
+* Flags:
+
+  * Fake sender domains
+  * Suspicious links
+  * Social engineering patterns
+* Trust score + explanation output
+
+---
+
+### 🚫 5. Advanced Ad & Tracker Blocker
+
+* Blocks ads and tracking scripts
+* Prevents popups and malicious scripts
+* Lightweight performance impact
+* Real-time blocking statistics
+
+---
+
+### 📊 6. AI Risk Dashboard
+
+* Overall browsing safety score (0–100)
+* Tracks:
+
+  * Ads blocked
+  * Trackers blocked
+  * Threats detected
+  * Pages scanned
+* Weekly safety insights
+
+---
+
+## 🧠 AI Engine
+
+* **Model:** GPT-4o Mini (OpenRouter)
+* **Use:** Risk analysis + summarization
+* **Latency:** ~1–2 seconds
+* **Mode:** Hybrid (AI + rule-based detection)
+
+---
+
+## 🏗️ System Architecture
+
+```text id="arch1"
+Browser Pages
+     ↓
+Content Scripts (monitoring layer)
+     ↓
+Background Service Worker (logic layer)
+     ↓
+AI Engine (OpenRouter GPT-4o Mini)
+     ↓
+Risk Scoring + Decision Engine
+     ↓
+Popup Dashboard UI
+```
+
+---
+
+## 📂 Project Structure
+
+```bash id="struct2"
+AI-guardian-ANGEL/
+│
+├── manifest.json
+├── background.js
+├── content.js
+├── ai/                  # AI analysis layer
+├── popup/
+│   ├── popup.html
+│   ├── popup.js
+│   └── popup.css
+├── assets/
+└── README.md
+```
+
+---
+
+## 🚀 Installation
+
+### 1. Clone Repository
+
+```bash id="inst1"
+git clone https://github.com/Harsh-mahadik999/AI-guardian-ANGEL---GOOGLE-EXTENSION--.git
+```
+
+### 2. Load Extension
+
+1. Open `chrome://extensions/`
+2. Enable Developer Mode
+3. Click “Load Unpacked”
+4. Select project folder
+
+---
+
+## 🎮 How It Works
+
+1. Detects sensitive pages (AI, payments, emails)
+2. Extracts relevant page data
+3. Runs rule-based + AI analysis
+4. Generates:
+
+   * Risk score
+   * Explanation
+   * Recommended action
+
+---
+
+## 📊 Example Outputs
+
+### Privacy Policy
+
+* Risk Score: 72/100
+* Verdict: ⚠️ Moderate Risk
+* Issue: Data sharing with third parties
+
+---
+
+### Payment Page
+
+* Verdict: ❌ High Risk
+* Issue: Suspicious domain + weak SSL
+
+---
+
+### Email
+
+* Trust Score: 85/100
+* Verdict: Safe
+* No phishing indicators detected
+
+---
+
+## 🔒 Privacy Guarantee
+
+* ❌ No external data storage
+* ❌ No user tracking
+* ❌ No analytics collection
+* ✅ All processing is local or encrypted API calls
+
+---
+
+## ⚡ Performance
+
+* Lightweight extension (~200KB)
+* <100ms page overhead
+* Real-time threat detection
+* Minimal memory footprint
+
+---
+
+## 🚧 Future Scope
+
+* ML-based phishing classifier
+* Multi-browser support (Firefox, Edge)
+* Real-time threat intelligence feed
+* Mobile companion app
+* Enterprise security dashboard
+
+---
+
+## 🤝 Contribution Guidelines
+
+* Keep code modular and readable
+* One feature per PR
+* Add clear comments for logic-heavy code
+* Test before submitting
+* Follow Manifest V3 standards
+
+---
+
+## 🐛 Issues
+
+Report bugs with:
+
+* Steps to reproduce
+* Screenshot (if possible)
+* Expected vs actual behavior
+
+---
+
+## 👤 Author
+
+**Harsh Mahadik**
+Chrome Extension Developer | AI Safety Systems
+
+---
+
+## ⭐ Support
+
+If you find this project useful:
+
+* Star ⭐ the repo
+* Share with others
+* Contribute improvements
+
+---
+
+## 🧠 Final Note
+
+Guardian AI ANGEL is designed as a **browser-native security intelligence layer**, combining:
+
+* Real-time detection
+* AI reasoning
+* Privacy-first architecture
+
+It is not just an extension—it is a **digital safety assistant for the modern web**.
