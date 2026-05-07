@@ -1,18 +1,5 @@
 # 🛡️ Guardian AI ANGEL
-///
-//
-//
-//
 
-###  hello guys read here this imp message form me ###
-### i will be having the end sem okay i wont be full time online to see the all issue and review one thing you all can do put all isse ready okay i will try to asssign you all respective issue okay i will try to come online to see review and give the marks of it okay so sorry for the getting offline 
-### i will come back full time online at wednesday maybe thursday onwards i will gonna come check fully give the marks and all to you okay 
-### thanks for understanding if you like this repo give contro as star to repo or follow this git account thank you all for the understanding 
-
-
-////
-////
-///
 ### Intelligent Privacy & Security Chrome Extension for AI + Web Browsing
 
 Guardian AI ANGEL is a **privacy-first Chrome Extension** that protects users from digital threats such as:
