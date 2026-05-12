@@ -522,6 +522,12 @@ $("clear-key-btn")?.addEventListener("click", async () => {
     if (!confirm("Are you sure you want to clear your API key and reset all settings?")) return;
     await sendBg({ type: "CLEAR_API_KEY" });
     await new Promise(r => chrome.storage.sync.clear(r));
+    await new Promise(r => chrome.storage.local.remove([
+        "apiKey",
+        "stats",
+        "currentPageScan",
+        "guardianPaused"
+    ], r));
     location.reload();
 });
 
